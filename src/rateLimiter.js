@@ -37,7 +37,7 @@ function dynamicRateLimiter(params) {
     return rateLimit({
       windowMs: limit.window * 1000,
       max: limit.count,
-      standardHeaders: true,
+      standardHeaders: false,
       legacyHeaders: false,
       handler: (req, res, next, options) => {
         // Customize behavior here to delay instead of sending a 429
