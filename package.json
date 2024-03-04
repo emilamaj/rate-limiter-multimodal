@@ -1,0 +1,27 @@
+{
+  "name": "rate-limiter-multimodal",
+  "version": "1.0.0",
+  "description": "Rate limiter middleware for Express.js that allows very tight limits while providing a seamless experience to the users.",
+  "main": "src/rateLimiter.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests/rateLimiter.test.js"
+  },
+  "keywords": [
+    "rate",
+    "limiter",
+    "middleware",
+    "multimodal",
+    "cooldown"
+  ],
+  "author": "Emile Amajar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
