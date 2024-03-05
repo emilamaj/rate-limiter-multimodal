@@ -31,14 +31,14 @@ We will have the following rate limits:
 ## Installation
 
 ```bash
-npm install express-multimodal-rate-limiter
+npm install rate-limiter-multimodal
 ```
 
 ## Usage
 
 ```javascript
 const express = require('express');
-const rateLimiter = require('express-multimodal-rate-limiter');
+const rateLimiter = require('rate-limiter-multimodal');
 
 // Define dummy app
 const app = express();
